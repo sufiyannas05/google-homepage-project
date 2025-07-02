@@ -1,0 +1,131 @@
+
+
+/* for google*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    min-width: 400px;
+}
+body, input, button {
+    font-size: 14px;
+    font-family: Helvetica Neue,sans-serif;
+    color: var(--YLNNHc);
+}
+body {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    padding:1rem;
+
+}
+
+.left-side, .right-side {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center; 
+}
+
+.app-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.profile-pic {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}
+
+.search-logo {
+    width: 2rem;
+    height: 2rem;
+}
+
+.mic-logo, .images-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.middle-section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.search-form-input {
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid #dfe1e5;
+gap: 1rem;
+border-radius: 30px;
+padding: 0.5rem 1rem;
+}
+
+.search-form-right {
+  display: flex;
+  align-items: right;
+  gap: 1rem;
+}
+
+.search-form label {
+  display: none;
+}
+.search-form input {
+  width: 27rem;
+  padding: 0.5rem;;
+  outline: none;
+  border: none;
+}
+
+.search-form button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Helvetica Neue,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f2f2f2;
+    margin-top: 15rem;
+    padding: 1rem;
+}
